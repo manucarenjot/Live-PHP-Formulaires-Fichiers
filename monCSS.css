@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    display: block;
+}
+
+body {
+    width: 100%;
+    font-family: 'Architects Daughter', cursive;
+    color: darkgray;
+    font-size: 1.2rem;
+    margin: 25px 20px 20px;
+}
+
+button {
+    margin: 2px;
+    padding: 2px;
+}
+
+#result {
+    /*width: 200px;
+    height: 200px;*/
+}
+
+.block {
+    display: block;
+}
+
+input, label {
+    display: block;
+    margin-top: 10px;
+}
+
+.success, .error {
+    display: block;
+    padding: 15px;
+    background-color: mediumseagreen;
+    color: white;
+    font-weight: bold;
+}
+
+.error {
+    background-color: indianred;
+}
+
